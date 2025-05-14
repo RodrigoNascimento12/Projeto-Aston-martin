@@ -9,11 +9,11 @@ body{
 }
 .header{
  width: 100%;
- height: 80px;
+ height: 30px;
 }
 .container{
  width: 1296px;
- height: 170px;
+ height: 80px;
  display: flex;
  justify-content: space-between;
  align-items: center;
@@ -36,11 +36,15 @@ body{
 }
 .btn {
  color: #fff;
- border: 2px solid #fff;
+ border: 1px solid #fff;
  margin: 46px;
  border-radius: 6px;
  text-decoration: none;
  padding: 10px 20px;
+}
+.btn:hover {
+  background-color: #fff;
+  color: #020202;
 }
 .section .box {
   width: 100%;
@@ -73,14 +77,30 @@ body{
 .btn1 {
   color: #fff;
   background-color: transparent;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 6px;
   transition: 0.3s;
   width: fit-content;
 }
-
+.botao{
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: 0.3s;
+  width: fit-content;
+  display: block;
+  margin-bottom: 30px;
+  margin: 20px;
+}
+.botao:hover {
+  background-color: #fff;
+  color: #020202;
+}
 .btn1:hover {
   background-color: #fff;
   color: #020202;
@@ -100,8 +120,9 @@ body{
   align-items: center;
   gap: 40px;
   padding: 20px;
-  background-color: #91282F;
-  background-color: #330002;
+  background: linear-gradient(89.95deg, #91282F 0.44%, #330002 98.92%);
+  
+  
 }
 
 .conteudo {
@@ -144,5 +165,42 @@ body{
 
 .footer{
   background-color: #fff;
+  align-items: center;
+    
 }
+.rodape{
+  width: 1296px;
+ height: 200px;
+ display: block;
+ align-items: center;
+ margin: 0 auto;
+ padding: 20px;
+}
+
+.rodape .image{
+  text-align: center;
+  margin: 20px;
+}
+ p{
+  font-size: 13px;
+  text-align: center;
+  margin: 20px ;
+}
+.rodape .list2 ul{
+  list-style: none;
+  align-items: center;
+  display: flex;
+
+}
+
+
+.rodape .list2 a{
+  color: #020202;
+  text-decoration: none;
+  font-size: 13px;
+  margin: 0 auto;
+}
+
+  
+
 
